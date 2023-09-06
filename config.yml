@@ -1,0 +1,5 @@
+authtoken: <your-auth-token>
+tunnels:
+    default:
+        proto: http
+        addr: 4040

@@ -1,0 +1,72 @@
+NAME:
+  start - start tunnels by name from the configuration file
+
+USAGE:
+  ngrok start [flags]
+
+DESCRIPTION: 
+  Starts tunnels by name from the configuration file. You may specify any
+  number of tunnel names. You may start all tunnels in the configuration
+  file with the --all switch.
+
+TERMS OF SERVICE: https://ngrok.com/tos
+
+EXAMPLES: 
+  ngrok start dev        # start tunnel named 'dev' in the configuration file
+  ngrok start web blog   # start tunnels named 'web' and 'blog'
+  ngrok start --all      # start all tunnels defined in the config file
+
+OPTIONS:
+      --all                 start all tunnels in the configuration file
+      --authtoken string    ngrok.com authtoken identifying a user
+      --config strings      path to config files; they are merged if multiple
+  -h, --help                help for start
+      --log string          path to log file, 'stdout', 'stderr' or 'false' (default "false")
+      --log-format string   log record format: 'term', 'logfmt', 'json' (default "term")
+      --log-level string    logging level: 'debug', 'info', 'warn', 'error', 'crit' (default "info")
+      --none                start running no tunnels
+      --region string       ngrok server region [us, eu, au, ap, sa, jp, in] (default "us")
+
+ERROR:  Error reading configuration file 'config.yml': `version` property is required.
+ERROR:  
+ERROR:  If you're upgrading from an older version of ngrok, you can run:
+ERROR:  
+ERROR:      ngrok config upgrade
+ERROR:  
+ERROR:  to upgrade to the new format and add the version number.
+NAME:
+  start - start tunnels by name from the configuration file
+
+USAGE:
+  ngrok start [flags]
+
+DESCRIPTION: 
+  Starts tunnels by name from the configuration file. You may specify any
+  number of tunnel names. You may start all tunnels in the configuration
+  file with the --all switch.
+
+TERMS OF SERVICE: https://ngrok.com/tos
+
+EXAMPLES: 
+  ngrok start dev        # start tunnel named 'dev' in the configuration file
+  ngrok start web blog   # start tunnels named 'web' and 'blog'
+  ngrok start --all      # start all tunnels defined in the config file
+
+OPTIONS:
+      --all                 start all tunnels in the configuration file
+      --authtoken string    ngrok.com authtoken identifying a user
+      --config strings      path to config files; they are merged if multiple
+  -h, --help                help for start
+      --log string          path to log file, 'stdout', 'stderr' or 'false' (default "false")
+      --log-format string   log record format: 'term', 'logfmt', 'json' (default "term")
+      --log-level string    logging level: 'debug', 'info', 'warn', 'error', 'crit' (default "info")
+      --none                start running no tunnels
+      --region string       ngrok server region [us, eu, au, ap, sa, jp, in] (default "us")
+
+ERROR:  Error reading configuration file 'config.yml': `version` property is required.
+ERROR:  
+ERROR:  If you're upgrading from an older version of ngrok, you can run:
+ERROR:  
+ERROR:      ngrok config upgrade
+ERROR:  
+ERROR:  to upgrade to the new format and add the version number.
